@@ -582,13 +582,3 @@ static bool feedgps()
   return false;
 }
 
-void breakTime(uint32_t timeInput){
-  Serial.print(year(tt));Serial.print("/");
-  Serial.print(month(tt));Serial.print("/");
-  Serial.print(day(tt));Serial.print(" ");
-  Serial.print(hour(tt));Serial.print(":");
-  Serial.print(minute(tt));Serial.print(":"); 
-  Serial.print(second(tt));Serial.print(" ");
-  Serial.println();
-}
-
